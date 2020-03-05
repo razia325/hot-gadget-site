@@ -34,7 +34,7 @@ li.active {
 h5{
     text-align: center;
 }
-.btn {
+.card .btn {
     background-color: black;
     padding: 10px 20px;
     margin-left: 90px;
@@ -45,7 +45,7 @@ h5{
     padding: 40px;
     margin-bottom: 40px;
 }
-h2::after{
+h4::after{
     content: '';
     background-image: linear-gradient(45deg , darkorange , yellow);
     display: block;
