@@ -1,0 +1,66 @@
+
+.container{
+    padding-bottom: 80px;
+}
+.menu a{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: 700;
+}
+.menu-ber{
+    background-color: #fff;
+}
+
+li.active {
+    background-image: linear-gradient(45deg, orange,yellow);
+    border-radius: 5px;
+    padding: 2px;
+}
+.card-deck{
+    padding-top: 30px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px lightgrey;
+}
+.card img{
+    padding-top: 20px;
+}
+.card-footer{
+    background-color: #fff;
+    border-top: none; 
+}
+h5{
+    text-align: center;
+}
+.btn {
+    background-color: black;
+    padding: 10px 20px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.cat{
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+h3::after{
+    content: '';
+    background-image: linear-gradient(45deg , darkorange , yellow);
+    display: block;
+    border-radius: 5px;
+    width: 100px;
+    height: 10px;
+    margin-left: 45%;
+    margin-top: 30px;
+
+}
+.cat-item{
+
+}
+#cat1,#cat2,#cat3{
+    box-shadow: 1px 1px 4px lightgrey;
+    height: 300px;
+    width: 200px;
+}
