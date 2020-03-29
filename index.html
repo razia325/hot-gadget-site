@@ -9,28 +9,39 @@
     
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-light  menu-ber">
-            <a class="navbar-brand" href="#">
-            <img src="images/logo.png" width="165px" height="80px" alt="logo">
-            </a>
-            <ul class="nav justify-content-end menu">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Product</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About US</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Contact US</a>
-                </li>
-              </ul>
+    
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" class="img-fluid w-50 ml-2">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link menu" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#">Smartphone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#">Laptop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#">Catagories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="#">About us</a>
+              </li>
+            </ul>
+          </div>
         </nav>
     </div>
-    <div class="container slide-item">
+    
+    <section>
+      <div class="container slide-item">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -86,6 +97,7 @@
             </a>
           </div>
     </div>
+    </section>
 
     <div class="container">
       <H3>Smartphone</H3>
@@ -98,7 +110,7 @@
             <h5>$999</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-dark">Buy Now-></button>
+            <button type="button" class="btn btn-dark button">Buy Now-></button>
           </div>
         </div>
         <div class="card">
@@ -109,7 +121,7 @@
             <h5>$799</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-dark">Buy Now-></button>
+            <button type="button" class="btn btn-dark button">Buy Now-></button>
           </div>
         </div>
         <div class="card">
@@ -120,7 +132,7 @@
             <h5>$699</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-dark">Buy Now-></button>
+            <button type="button" class="btn btn-dark button">Buy Now-></button>
           </div>
         </div>
       </div>
@@ -136,7 +148,7 @@
             <h5>$999</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-dark">Buy Now-></button>
+            <button type="button" class="btn btn-dark button">Buy Now-></button>
           </div>
         </div>
         <div class="card">
@@ -147,7 +159,7 @@
             <h5>$2799</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-dark">Buy Now-></button>
+            <button type="button" class="btn btn-dark button">Buy Now-></button>
           </div>
         </div>
         <div class="card">
@@ -158,7 +170,7 @@
             <h5>$999</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-dark">Buy Now-></button>
+            <button type="button" class="btn btn-dark button">Buy Now-></button>
           </div>
         </div>
       </div>
@@ -170,26 +182,31 @@
         <h4>Categories</h4>
       </div>
       <div class="row">
-        <div class="col-md-3 " id="cat1">
-          <img src="images/Categories/bag.png"  alt="">
-          <h5>BAg</h5>
+        <div class="col-md-6">
+          <div class="row  cat-images  align-items-center">
+            <div class="col-md-6">
+              <img class="img-fluid" src="images/Categories/bag.png" alt="">
+                <h3 class="title">Bags</h3>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <div>
+                <img class="img-fluid" src="images/Categories/perfume.png" alt="">
+                <h3 class="title">Perfume</h3>
+              </div>
+              <div>
+                <img class="img-fluid" src="images/Categories/shoe.png" alt="">
+                <h3 class="title">Shoes</h3>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 " id="cat2">
-          <img src="images/Categories/perfume.png"  alt="">
-          <h5>Perfume</h5>
-          
-        </div>
-        <div class="col-md-3" id="cat3" >
-          <img src="images/Categories/shoe.png" alt="">
-          <h5>Shoe</h5>
-        </div>
-        <div class="col-md-3">
-          <img src="images/Categories/pale-order.png" alt="">
+        <div class="col-md-6 d-flex align-items-center">
+          <img class="img-fluid" src="images/Categories/pale-order.png" alt="">
         </div>
       </div>
     </div>
 
-    
+    <footer><p class="gray text-center mt-4 mb-3">© pandasite 2020| All right reserved</p></footer>
 <!---js link-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
